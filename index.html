@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolios' website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="position-relative overflow-hidden p-3 p-md-1 m-md-1 text-center bg-body-tertiary">
+        <div class="col-md-6 p-lg-5 mx-auto my-5">
+          <h1 class="display-3 fw-bold">Dacha's Portfolios</h1>
+          <h3 class="fw-normal text-muted mb-3">List of my projects</h3>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md-4 col-sm-12">
+          <div class="my-3 py-3">
+            <h2 class="display-5">Notes taking app</h2>
+            <p class="lead">It is a web page that lets you save notes with titles. The notes can be edited and also deleted. However, since there is no backend integrated in it, thus the notes will be lost when refreshed.</p>
+            <p>Tools used: HTML, CSS, Javascript, React.js, Material UI library, Google Fonts</p>
+            <p><a href="https://github.com/MilloDacha/Notes.git">Github repository</a>/<a href="https://millodacha.github.io/Notes/">Live project</a></p>
+          </div>
+          <div class="slider-container" id="slider1">
+            <div class="slider">
+              <img src="./assets/Notes/291267201-60787e0d-69ab-4873-acb4-a04a8caa13ba.png" alt="Image 1">
+              <img src="./assets/Notes/291267213-bb74c18a-47ba-49cf-9679-4904c9903cc3.png" alt="Image 2">
+              <img src="./assets/Notes/291267220-7179b7a5-a297-4ca3-98d5-b187b656c815.png" alt="Image 3">
+            </div>
+          </div>
+        </div>
+        <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 pb-4 text-center overflow-hidden col-md-4 col-sm-12">
+          <div class="my-3 p-3">
+            <h2 class="display-5">Web authentication project</h2>
+            <p class="lead">It's a multi-page website for logging in or registering the user, via simple email and password or Google account, to access a web page having secrets in it.</p>
+            <p>Tools used: Javascript, Node, Express, Passport's Google (OAuth 2.0) and local authentication strategy, Bcrypt, Body-parser, PostgreSQL, HTML, CSS, EJS, Bootstrap framework</p>
+            <p><a href="https://github.com/MilloDacha/Secrets-webpage.git">Github repository</a></p>
+          </div>
+          <div class="slider-container" id="slider2">
+            <div class="slider">
+              <img src="./assets/Secrets/291266019-065b4dc7-8ee5-46d1-86a7-55e4a8d337ba.png" alt="Image 1">
+              <img src="./assets/Secrets/291266029-79855a4d-f5bc-4289-871a-2414a4698c97.png" alt="Image 2">
+              <img src="./assets/Secrets/291266032-c0f45f60-bba1-46c8-9b24-65b7e3d61ec4.png" alt="Image 3">
+              <img src="./assets/Secrets/291266038-c84b22e4-3d17-45b2-83cb-0f098b75a0fe.png" alt="Image 4">
+              <img src="./assets/Secrets/291266043-90c909a4-7f2f-4fe9-9e4f-dc38af731bf3.png" alt="Image 5">
+            </div>
+          </div>
+        </div>
+        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md-4 col-sm-12">
+            <div class="my-3 py-3">
+              <h2 class="display-5">Simon game</h2>
+              <p class="lead">It is an interactive Simon game on a webpage. You need to remember the sequence of colors that light up and tap the color tiles in the same sequence.</p>
+              <p>Tools used: HTML, CSS, Javascript, jQuery</p>
+              <p><a href="https://github.com/MilloDacha/Simon-Game.git">Github repository</a>/<a href="https://millodacha.github.io/Simon-Game/">Live project</a></p>
+            </div>
+            <div class="slider-container" id="slider3">
+              <div class="slider">
+                <img src="./assets/Simon game/291262029-2d458f73-d289-40df-bccf-fe60fd13d6a8.png" alt="Image 1">
+                <img src="./assets/Simon game/291262572-65ce0f40-ab56-4699-91df-6447473a3570.png" alt="Image 2">
+                <img src="./assets/Simon game/291262578-c7c36845-7e88-414e-8686-f271fb89f25d.png" alt="Image 3">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 pb-4 text-center overflow-hidden col-md-4 col-sm-12">
+          <div class="my-3 p-3">
+            <h2 class="display-5">Book list</h2>
+            <p class="lead">It shows a list of books with book cover, title, description and rating to the user, sorted based on rating. Each book tile can be edited and saved, moreover new books can be added and older ones can be removed as well.</p>
+            <p>Tools used: Javascript, Node, PostgreSQL, Express, Axios, Body-parser, Open Library's API, HTML, CSS, EJS</p>
+            <p><a href="https://github.com/MilloDacha/Book-List-Recommendation-Project.git">Github repository</a></p>
+          </div>
+          <div class="slider-container" id="slider4">
+            <div class="slider">
+              <img src="./assets/Book-list recommendation/291259295-65c11371-45e9-441e-b206-32d167a728f5.png" alt="Image 1">
+              <img src="./assets/Book-list recommendation/291259306-1315639c-d5dc-4f72-afe4-e44d0720a801.png" alt="Image 2">
+              <img src="./assets/Book-list recommendation/291259310-3e2e978d-8db7-4f00-af03-e592652aca88.png" alt="Image 3">
+              <img src="./assets/Book-list recommendation/291259317-0b7dd6fa-d49a-4f18-a736-3cb9138d231e.png" alt="Image 4">
+            </div>
+          </div>
+        </div>
+        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md-4 col-sm-12">
+            <div class="my-3 py-3">
+              <h2 class="display-5">Drum kit</h2>
+              <p class="lead">It is an interactive webpage consisting of various drum kit instruments on clicking which you get the respective sound effect of the instrument. To tap an instrument you can either left-click with the mouse or enter the key shown over the picture.</p>
+              <p>Tools used: HTML, CSS, Javascript</p>
+              <p><a href="https://github.com/MilloDacha/Drum-kit.git">Github repository</a>/<a href="https://millodacha.github.io/Drum-kit/">Live project</a></p>
+            </div>
+            <div class="slider-container" id="slider5">
+              <div class="slider">
+                <img src="./assets/Drum-kit/291261416-10843fba-0c97-4a14-998b-181bb55048a0.png" alt="Image 1">
+              </div>
+            </div>
+        </div>
+        <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md-4 col-sm-12">
+            <div class="my-3 p-3">
+              <h2 class="display-5">To-do list</h2>
+              <p class="lead">It is a simple interactive to-do list web page where you can add, delete and update the items.</p>
+              <p>Tools used: Javascript, Node, Express, Body-parser, PostgreSQL, HTML, CSS, EJS</p>
+              <p><a href="https://github.com/MilloDacha/To-do-list.git">Github repository</a></p>
+            </div>
+            <div class="slider-container" id="slider6">
+              <div class="slider">
+                <img src="./assets/To-do list/291265080-ad4f96f2-0590-4b0e-99b4-f0dde33d06ca.png" alt="Image 1">
+                <img src="./assets/To-do list/291265088-38d0e519-9577-49e5-b31c-7ff85a6c4030.png" alt="Image 2">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md-4 col-sm-12">
+          <div class="my-3 py-3">
+            <h2 class="display-5">Webpage for a sample courier service agency</h2>
+            <p class="lead">It's a webpage for a sample courier service agency, built with Bootstrap components.</p>
+            <p>Tools used: HTML, CSS, Bootstrap framework</p>
+            <p><a href="https://github.com/MilloDacha/Sample-courier-service-agency-webpage.git">Github repository</a>/<a href="https://millodacha.github.io/Sample-courier-service-agency-webpage/">Live project</a></p>
+          </div>
+          <div class="slider-container" id="slider7">
+            <div class="slider">
+              <img src="./assets/Sample courier service webpage/291260131-9f16a86f-d763-44e6-abd6-bc01986ce504.png" alt="Image 1">
+              <img src="./assets/Sample courier service webpage/291260148-8cd8d857-57e3-485a-9ef9-7621fdb13cd1.png" alt="Image 2">
+              <img src="./assets/Sample courier service webpage/291260154-298318de-4161-4f9a-b3b5-f1e35f41b53d.png" alt="Image 3">
+            </div>
+          </div>
+        </div>
+        <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 pb-4 text-center overflow-hidden col-md-4 col-sm-12">
+          <div class="my-3 p-3">
+            <h2 class="display-5">Blog post webpage</h2>
+            <p class="lead">It's a blog post website where you can edit, delete and add new blog posts. Here we are creating our own API in index.js which holds the blog posts data and handles the requests from our website's server (i.e. server.js).</p>
+            <p>Tools used: Javascript, Node, Express, Axios, Body-parser, HTML, CSS, EJS</p>
+            <p><a href="https://github.com/MilloDacha/Blog-post.git">Github repository</a></p>
+          </div>
+          <div class="slider-container" id="slider8">
+            <div class="slider">
+              <img src="./assets/Blog-post/291263602-1513a02f-f3c8-4599-b671-e29982537cfc.png" alt="Image 1">
+              <img src="./assets/Blog-post/291263610-f9856684-35d2-4ba5-a277-ca289f3c0019.png" alt="Image 2">
+              <img src="./assets/Blog-post/291263611-f626dea4-4a8d-40eb-bd9a-6f2364f536f1.png" alt="Image 3">
+              <img src="./assets/Blog-post/291263612-8cefdda9-c6df-4002-a721-13220e7fbc49.png" alt="Image 4">
+            </div>
+          </div>
+        </div>
+        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md-4 col-sm-12">
+            <div class="my-3 py-3">
+              <h2 class="display-5">TinDog</h2>
+              <p class="lead">A web page for a sample dating app for dogs called TinDog</p>
+              <p>Tools used: HTML, CSS, Bootstrap framework</p>
+              <p><a href="https://github.com/MilloDacha/Tindog.git">Github repository</a>/<a href="https://millodacha.github.io/Tindog/">Live project</a></p>
+            </div>
+            <div class="slider-container" id="slider9">
+              <div class="slider">
+                <img src="./assets/Tindog/291260801-26fe1e36-82f3-47d0-ace7-e36241674165.png" alt="Image 1">
+                <img src="./assets/Tindog/291260817-781fd2c4-ef05-489c-aa48-84686575a1b3.png" alt="Image 2">
+                <img src="./assets/Tindog/291260822-26d49d83-77dc-449e-b33e-b09a87560a4e.png" alt="Image 3">
+                <img src="./assets/Tindog/291260826-3aa2873a-886f-4744-914b-84c8115e3e94.png" alt="Image 4">
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md-4 col-sm-12">
+          <div class="my-3 p-3">
+            <h2 class="display-5">Anime recommendation website</h2>
+            <p class="lead">It shows a list of top 50 highest rated anime series with links to their description page embedded in the titles.</p>
+            <p>Tools used: Javascript, Node, Express, Axios, Body-parser, Anime News Network's API, HTML, CSS, EJS, Google Fonts</p>
+            <p><a href="https://github.com/MilloDacha/Anime-news.git">Github repository</a></p>
+          </div>
+          <div class="slider-container" id="slider10">
+            <div class="slider">
+              <img src="./assets/Anime recommendation webpage/291257110-37f7104e-0cf9-4524-a1db-aa92ee8cc0c8.png" alt="Image 1">
+              <img src="./assets/Anime recommendation webpage/291257126-8e225e48-0127-471b-bf9d-08b968886dea.png" alt="Image 2">
+              <img src="./assets/Anime recommendation webpage/291257133-ae09ec5a-4755-4d49-b596-69a80b082e04.png" alt="Image 3">
+            </div>
+          </div>
+        </div>
+        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md-4 col-sm-12">
+            <div class="my-3 py-3">
+              <h2 class="display-5">PID controller optimization</h2>
+              <p class="lead">Designed a genetic algorithm to optimize PID controllers by fine tuning Kp, Ki and Kd parameters.</p>
+              <p>Tools used: MATLAB, MATLAB Simulink</p>
+              <p><a href="https://drive.google.com/file/d/19nNVmSnAKmEySnVrxXdrYS3qP6vfJ3TC/view?usp=sharing">Report</a>/<a href="https://docs.google.com/presentation/d/1Rqi7ycST3EXBax2An13SKltZ59-4tfn3/edit?usp=sharing&ouid=106539882372522868277&rtpof=true&sd=true">Slides</a></p>
+            </div>
+            <div class="slider-container" id="slider11">
+              <div class="slider">
+                <img src="./assets/internship/Screenshot 2023-12-24 213530.png" alt="Image 1">
+                <img src="./assets/internship/Screenshot 2023-12-24 213604.png" alt="Image 2">
+                <img src="./assets/internship/Screenshot 2023-12-24 213702.png" alt="Image 3">
+                <img src="./assets/internship/Screenshot 2023-12-24 213722.png" alt="Image 4">
+                <img src="./assets/internship/Screenshot 2023-12-24 213729.png" alt="Image 5">
+              </div>
+            </div>
+        </div>
+        <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 pb-4 text-center overflow-hidden col-md-4 col-sm-12">
+            <div class="my-3 p-3">
+              <h2 class="display-5">Inverter design for supplying power to grid from a solar power plant</h2>
+              <p class="lead">Designed a PWM sine inverter (using MOSFET switching bridge circuit) and LCL filter (using genetic algorithm).</p>
+              <p>Tools used: MATLAB, MATLAB Simulink</p>
+              <p><a href="https://drive.google.com/file/d/1yBtfQ9oOgMtkQ6rBFcif6vleD2gTY9YD/view?usp=sharing">Report</a>/<a href="https://docs.google.com/presentation/d/1mrGDQ5ACCk3Dm8hHJKLt5ZjnekXcdEIG/edit?usp=sharing&ouid=106539882372522868277&rtpof=true&sd=true">Slides</a></p>
+            </div>
+            <div class="slider-container" id="slider12">
+              <div class="slider">
+                <img src="./assets/BTP/Screenshot 2023-12-24 214639.png" alt="Image 1">
+                <img src="./assets/BTP/Screenshot 2023-12-24 214708.png" alt="Image 2">
+                <img src="./assets/BTP/Screenshot 2023-12-24 214726.png" alt="Image 3">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mx-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2023 Millo Dacha</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">GitHub repository of this website</a></li>
+      </ul>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
